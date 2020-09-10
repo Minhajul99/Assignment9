@@ -1,0 +1,317 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+/* *********** Strict CSS *********** */
+
+.header-section {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+  background: #f6f9f9;
+}
+.logo {
+  width: 100%;
+}
+
+/**************Banner section start  ********/
+
+.banner-section {
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../img/Image.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-inner {
+  width: 100%;
+  padding: 80px 0px;
+  text-align: center;
+}
+.banner-inner h1 {
+  font-size: 85px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+.banner-inner .divider {
+  width: 40%;
+  height: 2px;
+  margin: 20px auto;
+  background: #15a4fa;
+}
+.banner-inner p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+.banner-inner .btn-info {
+  font-size: 14px;
+  padding: 15px 35px;
+  background: transparent;
+  color: white;
+  border: 2px solid #15a4fa;
+  border-radius: 5px;
+}
+.banner-inner .btn-info:hover {
+  background: #15a4fa;
+  color: #fff;
+  border: 1px solid #15a4fa;
+}
+.banner-inner .arrow {
+  width: 100%;
+  margin-top: 40px;
+}
+.banner-inner .arrow .arrow-icon {
+  margin-top: 100px;
+  transform: translate(0%, 100%);
+}
+
+/**************Banner section End  ********/
+
+/*******Simple Section Css Start *************/
+.simple {
+  width: 100%;
+  padding: 60px 0px;
+  background: #f6f9f9;
+}
+
+.simple-inner {
+  width: 100%;
+  text-align: center;
+}
+.simple-inner h1 {
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 15px;
+}
+.simple-inner p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+/*******Simple Section Css End***********/
+
+/*******Feature Section start ********/
+.feature {
+  width: 100%;
+  padding: 60px 0px;
+}
+.feature-inner {
+  width: 100%;
+  text-align: center;
+}
+.feature-inner h4 {
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  color: black;
+  margin: 15px 10px 0px;
+}
+.feature-inner p {
+  font-size: 14px;
+  line-height: 24px;
+}
+/*******Feature Section end ********/
+
+/***** Portfolios section start  ******/
+.portfolios {
+  width: 100%;
+  padding: 80px 0px;
+  background: #f6f9f9;
+}
+.portfolios .title {
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.portfolios .title h1 {
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.portfolios .title p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+.portfolios .card {
+  margin-bottom: 25px;
+  border: 0px;
+  border-radius: 0px;
+}
+.portfolios .card .card-img-top {
+  border-top-left-radius: inherit !important;
+  border-top-right-radius: inherit !important;
+}
+.portfolios .port-hover {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: rgb(41, 150, 230, 0.6);
+  display: none;
+}
+.portfolios .port-hover .icons {
+  position: absolute;
+  top: 45%;
+  left: 36%;
+}
+.portfolios .card:hover .port-hover {
+  display: block;
+  transition: 2s;
+}
+/***** Portfolios section End  ******/
+
+/*******Stay with us Start  *******/
+.stay-us {
+  width: 100%;
+  padding: 80px 0px;
+  background-image: url("../img/s1.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stay-us .title {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.stay-us .title h1 {
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+.stay-us .title p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+.stay-us .contact-form {
+  width: 100%;
+}
+.stay-us .contact-form .form-group {
+  width: 100%;
+  margin: 5px 0px;
+}
+.stay-us .contact-form .form-group .form-control {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  border: 1px solid #999 ;
+  color: #aaa;
+  font-size: 14px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+.stay-us .contact-form .form-group .form-control :focus{
+    border: 1px solid #fff;
+}
+.stay-us .contact-form .form-group textarea {
+  height: 180px !important;
+}
+.stay-us .contact-form .form-group span {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.stay-us .contact-form .btn-info {
+  font-size: 14px;
+  padding: 10px 35px;
+  background: transparent;
+  color: white;
+  border: 2px solid #15a4fa;
+  border-radius: 5px;
+}
+.stay-us .contact-form .btn-info:hover {
+  background: #15a4fa;
+  color: #fff;
+  border: 1px solid #15a4fa;
+  /*******Stay with us end  *******/
+} 
+ 
+  /* Footer section css */
+  .footer-section {
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .footer-section .copyright {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+  }
+  .footer-section .social-icons {
+    width: 100%;
+    text-align: right;
+  }
+  .footer-section .social-icons ul {
+    display: block;
+  }
+  .footer-section .social-icons ul li {
+    display: inline-block;
+    list-style: none;
+  }
+  .footer-section .social-icons ul li a {
+    text-align: center;
+    font-size: 16px;
+  }
+  .footer-section .social-icons ul li a .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #15a4fa;
+    color: #fff;
+    border-radius: 2px;
+  }
+  .footer-section .social-icons ul li a .fa-facebook:hover {
+    background: rgb(8, 125, 172);
+    color: whitesmoke;
+  }
+  .footer-section .social-icons ul li a .fa-twitter:hover {
+    background: transparent;
+    color: #15a4fa;
+    border: 1px solid #15a4fa;
+  }
+  .footer-section .social-icons ul li a .fa-google-plus:hover {
+    background: rgb(219, 59, 10);
+    color: whitesmoke;
+  }
+  .footer-section .social-icons ul li a .fa-linkedin:hover {
+    background: transparent;
+    color: #15a4fa;
+    border: 1px solid #15a4fa;
+  }
